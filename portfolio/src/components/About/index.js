@@ -1,5 +1,6 @@
 import React from "react";
 import Dana from "../../assets/dana.webp";
+import './about.css';
 
 function About() {
   return (
@@ -7,8 +8,9 @@ function About() {
       <div className="dana">
         <img src={Dana} alt="Dana Golebiewski" />
       </div>
-      <h2 className="text-light">Full Stack Web Developer</h2>
-      <div>
+  
+      <div className="info">
+        <h2 className="heading" >Full Stack Web Developer</h2>
         <p>
           Full Stack Web Developer with a background in business ownership,
           massage therapy, and life-long dedication to learning. Self-starter
