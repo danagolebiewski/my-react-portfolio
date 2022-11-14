@@ -1,20 +1,24 @@
 import React, { useEffect } from 'react';
 
-function Nav (props) {
-  const {pages = [], setCurrentPage, currentPage, } = props;
+function Nav({ pages = [], setCurrentPage, currentPage }) {
   useEffect(() => {
     document.title = currentPage.name;
-  }, [currentPage])
+  }, [currentPage]);
 
   return (
     <div>
-<ul className = "flex-row">
-  {pages.map((Page) => (
-    <li className = {`mx-5 ${currentPage.name === Page.name && 'navActive'}`} key = {Page.name}><span onClick= {() => setCurrentPage(Page)}>{Page.name}</span></li>
-  ))}
-</ul>
+      <ul className="flex-row">
+        {pages.map(Page => (
+          <li
+            className={`mx-5 ${currentPage.name === Page.name && 'navActive'}`}
+            key={Page.name}
+          >
+            <span onClick={() => setCurrentPage(Page)}>{Page.name}</span>
+          </li>
+        ))}
+      </ul>
     </div>
-  )
+  );
 }
 
 export default Nav;
