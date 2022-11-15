@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="container home">
       <div className="dana">
-        <img src={Dana} alt="Dana Golebiewski" />
+        <img className="danaimg" src={Dana} alt="Dana Golebiewski" />
       </div>
   
       <div className="info">

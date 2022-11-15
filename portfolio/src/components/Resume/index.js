@@ -1,15 +1,20 @@
 import React from "react";
+import "./resume.css";
 
 function Resume() {
   return (
-    <div>
+    <div className="resume">
+      <ul>
       <li>
-        <a
-          href="https://drive.google.com/file/d/1Ylb6pTwnQ9MGVzFBD4TZCXfiAyaR6An4/view?usp=sharing"
+        <a className="link"
+          href="https://docs.google.com/document/d/e/2PACX-1vRukW3lJbEq2ywW-J7Xk1bKjSg3rHdPfkhnXUZf4mp_GAmaiOPc-63B86mhcEwTjMRrCxRctR26zFZ9/pub"
           target="_blank"
         >
+          Link to Resume
         </a>
       </li>
+      </ul>
+      {/* <img src="./assets/resume.png" alt="resume" className="resume-img" /> */}
     </div>
   );
 }
