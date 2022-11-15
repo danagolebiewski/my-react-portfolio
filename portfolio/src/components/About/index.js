@@ -1,6 +1,6 @@
 import React from "react";
 import Dana from "../../assets/dana.webp";
-import './about.css';
+import "./about.css";
 
 function About() {
   return (
@@ -8,9 +8,9 @@ function About() {
       <div className="dana">
         <img className="danaimg" src={Dana} alt="Dana Golebiewski" />
       </div>
-  
+
       <div className="info">
-        <h2 className="heading" >Full Stack Web Developer</h2>
+        <h2 className="heading">Full Stack Web Developer</h2>
         <p>
           Full Stack Web Developer with a background in business ownership,
           massage therapy, and life-long dedication to learning. Self-starter
@@ -19,12 +19,16 @@ function About() {
           a consistently excellent product. Mentor a new massage therapist to
           coach on advanced massage therapy techniques, business ownership, and
           cultivating an interpersonal relationship with each client.
+          </p>
+          <p>
           Extra-curricular activities include being MVP of the roller derby
-          league, co-chair of the training committee, team captain, and coach of
+          league, training committee member, team captain, and assists with coaching
           the new recruits. Love collaborating as a team to reach common goals
-          and help everyone achieve success. I thrive on witnessing and helping
-          everyone around me succeed and being able to contribute to that
-          success.
+          and help everyone achieve success.
+          </p>
+          <p>
+          I thrive on witnessing and helping everyone around me succeed
+          and being able to contribute to that success.
         </p>
       </div>
     </div>

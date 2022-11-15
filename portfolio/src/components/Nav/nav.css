@@ -18,3 +18,9 @@ li {
 nav {
   background-color: #1f2839;
 }
+
+#navlink:hover {
+  box-shadow: inset 100px 0 0 0 #1f2839;
+  color: white;
+  cursor:pointer;
+}

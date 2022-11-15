@@ -10,7 +10,7 @@ function Nav({ pages = [], setCurrentPage, currentPage }) {
     <div>
       <ul className="flex-row">
         {pages.map(Page => (
-          <li
+          <li id='navlink'
             className={`mx-5 ${currentPage.name === Page.name && 'navActive'}`}
             key={Page.name}
           >
