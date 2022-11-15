@@ -1,13 +1,17 @@
-import React from 'react';
+import React from "react";
 
-function Resume () {
-  
-
+function Resume() {
   return (
     <div>
-      <p>Lorem</p>
+      <li>
+        <a
+          href="https://drive.google.com/file/d/1Ylb6pTwnQ9MGVzFBD4TZCXfiAyaR6An4/view?usp=sharing"
+          target="_blank"
+        >
+        </a>
+      </li>
     </div>
-  )
+  );
 }
 
 export default Resume;

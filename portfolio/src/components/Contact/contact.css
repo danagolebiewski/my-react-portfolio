@@ -1,0 +1,23 @@
+li {
+  list-style: none;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.contact {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 150px;
+  padding: 6%;
+  background-color: #1f2839;
+  border: 2px solid #b69d74;
+  color: antiquewhite;
+}
+
+a {
+color: antiquewhite;
+text-decoration: none;
+}
+
+/* a:hover {
+  #b69d74;
+} */
