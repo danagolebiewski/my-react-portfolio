@@ -9,7 +9,7 @@ function Portfolio() {
       imageName: "employee-tracker.png",
       description: "HTML/CSS/JS",
       link: "www.google.com",
-      repo: "https://www.google.com",
+      repo: "employee-tracker",
     },
     {
       name: "Hi Blog, I'm Dad",
