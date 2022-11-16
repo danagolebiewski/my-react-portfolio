@@ -6,8 +6,8 @@ function Header ({ children }) {
     <div >
       <header className='title'>
         <h1>Dana Golebiewski</h1>
-      </header>
       {children}
+      </header>
     </div>
  
   );

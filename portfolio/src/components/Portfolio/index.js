@@ -1,16 +1,15 @@
 import React, { useState } from "react";
-import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
 import Project from "../Project";
+// import employeeTracker from '../assets/employee-tracker.png';
 
 function Portfolio() {
-  const [projects] = [
+  const [projects] = useState ([
     {
       name: "Employee Tracker",
       imageName: "employee-tracker.png",
       description: "HTML/CSS/JS",
-      link: "Deployed",
-      repo: "Github link",
+      link: "www.google.com",
+      repo: "https://www.google.com",
     },
     {
       name: "Hi Blog, I'm Dad",
@@ -47,12 +46,12 @@ function Portfolio() {
       link: "Deployed",
       repo: "Github link",
     },
-  ];
+  ]);
   return (
     <div>
       <div className="flex-row">
         {projects.map((project, idx) => (
-          <Project {...project} key={'project' + idx} />
+          <Project project = {project} key={'project' + idx} />
         ))}
       </div>
     </div>

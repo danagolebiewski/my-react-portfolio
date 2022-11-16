@@ -23,7 +23,7 @@ function Page({ currentPage }) {
 
   return (
     <div>
-      <h2>{currentPage.name}</h2>
+      {/* <h2>{currentPage.name}</h2> */}
       <PageContent>
         {pageRender()}
         </PageContent>
