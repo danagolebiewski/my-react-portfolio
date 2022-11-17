@@ -14,7 +14,7 @@ const generateImage = (name, imageName) => {
 function Project({ project }) {
   const {name, imageName, description, repo, link} = project
   return (
-    <div className="project" key={name}>
+    <div className="project"  key={name}>
       {generateImage(name, imageName)}
       <div className="project-text">
         <h3>
