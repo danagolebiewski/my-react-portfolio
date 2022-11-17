@@ -1,3 +1,8 @@
 .card-img {
-  max-width: 100%;
+ background-color: black;
+}
+
+
+h3 {
+  color: #1f2839;
 }

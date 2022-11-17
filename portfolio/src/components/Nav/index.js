@@ -7,7 +7,7 @@ function Nav({ pages = [], setCurrentPage, currentPage }) {
   }, [currentPage]);
 
   return (
-    <div>
+    <div className='navDiv'>
       <ul className="flex-row">
         {pages.map(Page => (
           <li id='navlink'

@@ -19,7 +19,7 @@ function Project({ project }) {
       <div className="project-text">
         <h3>
           <a href={link}>link</a>{' '} 
-          <a href={`https://github.com/danagolebiewski/${repo}`}>{repo}</a>{' '}
+          <a href={`${repo}`}>{repo}</a>{' '}
           {/* //can be github icon */}
         </h3>
         <p>{description}</p>
