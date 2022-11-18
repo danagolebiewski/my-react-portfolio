@@ -1,19 +1,29 @@
 .card-img {
  display: flex;
- flex-direction: column;
- width: 30%;
+ width: 50%;
 }
 
 .project {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  border: 1px solid blue;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.links {
+  color: #1f2839;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  /* text-align: center; */
+  width: 50%;
+  padding-left: 10px;
 
 }
 
-.project-text {
-  color: #1f2839;
-  text-decoration: none;
-
+.description {
+  text-align: center;
 }

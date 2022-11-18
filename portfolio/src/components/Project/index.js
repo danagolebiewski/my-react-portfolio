@@ -14,15 +14,14 @@ const generateImage = (name, imageName) => {
 function Project({ project }) {
   const {name, imageName, description, repo, link} = project
   return (
-    <div className="project"  key={name}>
+    <div className="project" key={name}>
       {generateImage(name, imageName)}
       <div className="project-text">
         <h3>
-          <a href={link}>link</a>{' '} 
-          <a href={`${repo}`}>{repo}</a>{' '}
-          {/* //can be github icon */}
+          <a className="links" href={`${link}`}>Link</a>{' '} 
+          <a className="links" href={`${repo}`}>Repo</a>{' '}
         </h3>
-        <p>{description}</p>
+        <h3 className="links">{description}</h3>
       </div>
   </div>
 )

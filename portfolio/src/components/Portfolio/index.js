@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import Project from "../Project";
-// import employeeTracker from '../assets/employee-tracker.png';
+import portfolio from "./portfolio.css";
 
 function Portfolio() {
   const [projects] = useState ([
     {
       name: "Hi Blog, I'm Dad",
       imageName: "hi-blog-im-dad.png",
-      description: "HTML/CSS/JS/JQUERY/BOOTSTRAP/MYSQL/NODE.JS/EXPRESS ",
+      description: "HTML/CSS/JS/JQUERY/BOOTSTRAP/MYSQL/NODE.JS/EXPRESS",
       link: "https://hi-blog-im-dad.herokuapp.com/",
       repo: "https://github.com/Leximiller128/hi-blog-im-dad",
     },
@@ -49,7 +49,7 @@ function Portfolio() {
   ]);
   return (
     <div>
-      <div className="flex-row">
+      <div className="portfolio">
         {projects.map((project, idx) => (
           <Project project = {project} key={'project' + idx} />
         ))}
