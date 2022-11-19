@@ -6,7 +6,6 @@
 .project {
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid blue;
   padding: 20px;
   text-align: center;
   width: 100%;
