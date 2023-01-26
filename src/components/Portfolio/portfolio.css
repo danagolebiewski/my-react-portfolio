@@ -2,4 +2,8 @@
   color: black;
   /* display: flex; */
   text-decoration: none;
+  border-radius: 2px red;
+  padding-left: 29%;
+  padding-top: 3%;
+  padding-bottom: 5%;
 }

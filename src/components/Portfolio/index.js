@@ -5,6 +5,13 @@ import portfolio from "./portfolio.css";
 function Portfolio() {
   const [projects] = useState ([
     {
+      name: "Tarot Keeper",
+      imageName: "tarot-keeper.png",
+      description: "This application would allow users to save their Tarot readings When they create an account so that they can come back to it without the long thinking proccess of that aha moment, when this application can save that for you including images, Decription and other information about that specific card.",
+      link: "https://my-tarot-keeper.herokuapp.com/",
+      repo: "https://github.com/Leximiller128/tarot_keeper2",
+    },
+    {
       name: "Hi Blog, I'm Dad",
       imageName: "hi-blog-im-dad.png",
       description: "A blog to store all of your witty puns and dad jokes",
@@ -37,14 +44,7 @@ function Portfolio() {
       description: "This app allows you to add notes to a list and delete them when you are done.",
       link: "https://mighty-basin-07274.herokuapp.com/",
       repo: "Github link",
-    },
-    {
-      name: "Team Profile Generator",
-      imageName: "team-profile-generator.png",
-      description: "This app keeps track of your team by importing vital contact information.",
-      link: "Deployed",
-      repo: "https://github.com/danagolebiewski/team-profile-generator",
-    },
+    }
   ]);
   return (
     <div>

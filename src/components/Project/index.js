@@ -19,8 +19,8 @@ function Project({ project }) {
 
       <div className="project-text">
         <h3>
-          <a className="links" href={`${link}`}>Link</a>{' '} 
-          <a className="links" href={`${repo}`}>Repo</a>{' '}
+          <a className="links" href={`${link}`}>Website Link</a>{' '} 
+          <a className="links" href={`${repo}`}>Link to Repository</a>{' '}
         </h3>
         <h3 className="links">{description}</h3>
       </div>

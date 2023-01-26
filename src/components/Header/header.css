@@ -1,5 +1,7 @@
 .title {
-  color: #1f2839;
+  color: beige;
+  background-color: #1f2839;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
+  padding-left: 3%;
 }

@@ -12,13 +12,7 @@ function About() {
       <div className="info">
         <h2 className="heading">Full Stack Web Developer</h2>
         <p>
-          Full Stack Web Developer with a background in business ownership,
-          massage therapy, and life-long dedication to learning. Self-starter
-          with excellent communication and customer service skills. Known among
-          former clients for being able to listen to their needs and delivering
-          a consistently excellent product. Mentor a new massage therapist to
-          coach on advanced massage therapy techniques, business ownership, and
-          cultivating an interpersonal relationship with each client.
+        Former massage therapist transitioning to programming specializing in data analytics and front and back-end development. Combining my excellent service skills with a newfound passion for computer software to help people in new ways.
           </p>
           <p>
           Extra-curricular activities include being MVP of the roller derby
