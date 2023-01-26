@@ -14,7 +14,6 @@ function Resume() {
         </a>
       </li>
       </ul>
-      {/* <img src="./assets/resume.png" alt="resume" className="resume-img" /> */}
     </div>
   );
 }

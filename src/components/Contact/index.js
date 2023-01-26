@@ -13,7 +13,7 @@ function Contact() {
         </li>
         <li>
           <a href="https://github.com/danagolebiewski" target="_blank">
-            Github
+            GitHub
           </a>
         </li>
         <li>
@@ -21,12 +21,12 @@ function Contact() {
             href="https://www.linkedin.com/in/danagolebiewski/"
             target="_blank"
           >
-            Linkedin 
+            LinkedIn 
           </a>
         </li>
         <li>
           <a href="tel:716-445-9943" target="_blank">
-            Phone number
+            Phone Number
           </a>
         </li>
       </ul>
