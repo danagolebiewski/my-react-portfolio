@@ -16,6 +16,7 @@ function Project({ project }) {
   return (
     <div className="project" key={name}>
       {generateImage(name, imageName)}
+
       <div className="project-text">
         <h3>
           <a className="links" href={`${link}`}>Link</a>{' '} 
