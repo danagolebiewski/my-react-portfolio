@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-react-app/static/css/main.90df1bb3.css",
-    "main.js": "/my-react-app/static/js/main.51fcfa4e.js",
+    "main.css": "/my-react-app/static/css/main.bdc86679.css",
+    "main.js": "/my-react-app/static/js/main.cf4b80db.js",
     "static/js/787.56d9acf9.chunk.js": "/my-react-app/static/js/787.56d9acf9.chunk.js",
     "static/media/theperfectdatenight.png": "/my-react-app/static/media/theperfectdatenight.07aaedd304bbff97a231.png",
     "static/media/employee-tracker.png": "/my-react-app/static/media/employee-tracker.3264496ee62b15674346.png",
@@ -9,15 +9,16 @@
     "static/media/dana.webp": "/my-react-app/static/media/dana.73e59784c0b5b06b1bca.webp",
     "static/media/resume.png": "/my-react-app/static/media/resume.b60dc02e04dd562a6739.png",
     "static/media/notetaker.png": "/my-react-app/static/media/notetaker.91a07ab32649bcafafa6.png",
+    "static/media/tarot-keeper.png": "/my-react-app/static/media/tarot-keeper.9019ed6772703352e6a8.png",
     "static/media/team-profile-generator.png": "/my-react-app/static/media/team-profile-generator.63681aa08ad0b369fa30.png",
     "static/media/favicon.ico": "/my-react-app/static/media/favicon.ce118a6b0f18f028bb08.ico",
     "index.html": "/my-react-app/index.html",
-    "main.90df1bb3.css.map": "/my-react-app/static/css/main.90df1bb3.css.map",
-    "main.51fcfa4e.js.map": "/my-react-app/static/js/main.51fcfa4e.js.map",
+    "main.bdc86679.css.map": "/my-react-app/static/css/main.bdc86679.css.map",
+    "main.cf4b80db.js.map": "/my-react-app/static/js/main.cf4b80db.js.map",
     "787.56d9acf9.chunk.js.map": "/my-react-app/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90df1bb3.css",
-    "static/js/main.51fcfa4e.js"
+    "static/css/main.bdc86679.css",
+    "static/js/main.cf4b80db.js"
   ]
 }
