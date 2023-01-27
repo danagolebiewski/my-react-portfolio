@@ -15,9 +15,7 @@ function About() {
         Former massage therapist transitioning to programming specializing in data analytics and front and back-end development. Combining my excellent service skills with a newfound passion for computer software to help people in new ways.
           </p>
           <p>
-          Extra-curricular activities include being MVP of the roller derby
-          league, training committee member, team captain, and assists with coaching
-          the new recruits. Love collaborating as a team to reach common goals
+          Extra-curricular activities include being a member of Boulder County Roller Derby. Volunteer duties indclue: Board Member, MVP of the league, training committee member, team captain, and assistant coach for new recruits. Love collaborating as a team to reach common goals
           and help everyone achieve success.
           </p>
           <p>
