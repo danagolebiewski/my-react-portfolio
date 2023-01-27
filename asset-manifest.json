@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.bdc86679.css",
-    "main.js": "/my-react-portfolio/static/js/main.2d4fc437.js",
+    "main.js": "/my-react-portfolio/static/js/main.9ef1354b.js",
     "static/js/787.56d9acf9.chunk.js": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js",
     "static/media/theperfectdatenight.png": "/my-react-portfolio/static/media/theperfectdatenight.07aaedd304bbff97a231.png",
     "static/media/employee-tracker.png": "/my-react-portfolio/static/media/employee-tracker.3264496ee62b15674346.png",
@@ -14,11 +14,11 @@
     "static/media/favicon.ico": "/my-react-portfolio/static/media/favicon.ce118a6b0f18f028bb08.ico",
     "index.html": "/my-react-portfolio/index.html",
     "main.bdc86679.css.map": "/my-react-portfolio/static/css/main.bdc86679.css.map",
-    "main.2d4fc437.js.map": "/my-react-portfolio/static/js/main.2d4fc437.js.map",
+    "main.9ef1354b.js.map": "/my-react-portfolio/static/js/main.9ef1354b.js.map",
     "787.56d9acf9.chunk.js.map": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bdc86679.css",
-    "static/js/main.2d4fc437.js"
+    "static/js/main.9ef1354b.js"
   ]
 }
