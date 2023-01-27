@@ -2,7 +2,7 @@
   "name": "my-react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://danagolebiewski.github.io/my-react-app",
+  "homepage": "https://danagolebiewski.github.io/my-react-portfolio",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
